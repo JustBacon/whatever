@@ -18,5 +18,23 @@ var donut = {
 	topping : ["sprinkles", "choco frosting", "o'hare air"],
 	filling : "jelly",
 	shape : "dodecahedron",
-	count : 12
+	count : 12,
+	object : true
+}
+
+function numbar(a){
+	console.log(numbers[9] + numbers[1])
+}
+numbar(numbers);
+
+function donut(b){
+	if(b == donut.topping[0]){
+		console.log(donut.count + " " + donut.filling + " " + donut.shape +)
+	}else if(b == donut.topping[1]){
+		console.log("")
+	}else if(b == donut.topping[2]){
+		console.log("")
+	}else{
+		console.log("your donut don't taste so good!")
+	}
 }
